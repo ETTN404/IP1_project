@@ -1,0 +1,28 @@
+.greencontent h1 {
+  margin-bottom: 0.1em;
+  font-size: 3.1em;
+  font-weight: bold;
+}
+.greencontent h4 {
+  margin-bottom: 0.1em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.greencontent .sign {
+  margin-top: 1em;
+  border: solid rgba(255, 255, 255, 0.5);
+  padding: 0.75em 5em;
+  border-radius: 30px;
+  border-width: 2.75px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.greencontent .sign:hover {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* color: rgba(0, 0, 0, 0.75); */
+  /* box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), */
+  /* inset -3px -3px 5px rgba(0, 0, 0, 0.5), */
+  /* inset -3px -3px 13px rgba(0, 0, 0, 0.25); */
+  /* border: none; */
+  /* padding: 21px 58px; */
+  /* font-weight: 900; */
+  transform: scale(1.05);
+}
