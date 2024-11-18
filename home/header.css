@@ -1,0 +1,173 @@
+.granny {
+  position: fixed;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 12;
+  top: 0;
+  padding: 10px;
+}
+.grid {
+  display: grid;
+  margin-left: 33px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 22px;
+  row-gap: 33px;
+  background-color: #f9f9f9;
+  padding-top: 2px;
+}
+.list img {
+  height: 22px;
+}
+.list {
+  display: flex;
+  width: 100px;
+  position: relative;
+}
+.searcher {
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+.searcher input {
+  flex: 1;
+  margin-left: 22px;
+  margin-right: 22px;
+  padding: 4px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+}
+#searchbutton {
+  position: absolute;
+  right: 33px;
+  top: 2px;
+  fill: rgb(135, 133, 133);
+}
+.profile {
+  width: 24%;
+  display: flex;
+  height: inherit;
+  margin-right: -7%;
+  margin-left: 3px;
+  position: relative;
+}
+.searcher p {
+  width: 222px;
+  text-align: center;
+}
+.profileimg {
+  height: 32px;
+  width: 32px;
+  border: solid white;
+  border-width: 2px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.butt-on {
+  max-width: 155px;
+  border: 1px solid black;
+  border-radius: 33px;
+  margin-left: -120px;
+  margin-right: 33px;
+  padding: 2px 14px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.butt-on p {
+  font-size: small;
+  vertical-align: middle;
+  text-align: center;
+}
+.trues {
+  left: 0;
+  margin-left: -144px;
+  transform: scale(0.87);
+}
+.forth h4 {
+  padding-left: 21px;
+  padding-top: 15px;
+}
+.forth h4:hover {
+  background-color: #d6d6d6;
+}
+.forth.f {
+  display: none;
+}
+.list div {
+  background-color: rgba(255, 255, 255, 0.558);
+  background-image: linear-gradient(to bottom, white, transparent);
+  backdrop-filter: blur(1px);
+  text-decoration: none;
+  color: #000000;
+  top: 39px;
+  left: -9px;
+  right: -50px;
+  position: relative;
+  display: flex;
+  height: 800px;
+  flex-direction: column;
+  position: absolute;
+}
+.list ul {
+  padding-top: 33px;
+}
+ul p {
+  font-size: small;
+  padding-left: 22px;
+}
+.forth h1 {
+  position: absolute;
+  right: 9px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  top: 10px;
+  z-index: 33px;
+  cursor: pointer;
+  border: solid black;
+  padding: 0 4px;
+}
+
+.star33 {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  margin-left: -13px;
+  color: rgb(19, 110, 166);
+  align-items: center;
+  justify-content: center;
+}
+.star33 p,
+.star33 h5 {
+  display: inline;
+  padding: 2px;
+}
+
+#contact {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contact.clown {
+  font-weight: 900;
+  color: white;
+  text-shadow: -1px -1px 15px rgba(0, 0, 0, 0.6221),
+    1px -1px 15px rgba(0, 0, 0, 0.624), -1px 1px 15px rgba(0, 0, 0, 0.616);
+}
+#contact:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#find #contact {
+  padding: 0;
+  margin: 0;
+}
+#first h1,
+#first h2 {
+  text-shadow: -1px -1px 5px black, 1px -1px 5px black, -1px 1px 5px black;
+}

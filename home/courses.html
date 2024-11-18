@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="courses.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <img src="images/imgimg.jpg" id="first" alt="logo" />
+        <b>SKILL Share</b>
+        <a href="contact.html" id="catag">Contact Us</a>
+        <a href="html.html" id="catag">Login</a>
+        <a href="home.html" id="catag">Home</a>
+        <a href="../profile/profile.html" id="catag">Profile</a>
+      </div>
+    </header>
+
+    <main>
+      <a
+        style="text-decoration: none"
+        href="https://youtu.be/gQojMIhELvM?si=RwCNHm4o9WLqmv_6"
+      >
+        <div>
+          <h2>Featured Courses</h2>
+          <div class="course-list">
+            <div class="course-item">
+              <img src="4.jpg" alt="Course 1" />
+              <h3>Web Development Bootcamp</h3>
+              <p
+                style="
+                  font-family: Arial, Helvetica, sans-serif;
+                  color: rgb(99, 99, 99);
+                "
+              >
+                Learn how to build responsive and modern websites from scratch
+                using HTML, CSS, and JavaScript.
+              </p>
+              <p>Price: $99 | Duration: 8 weeks</p>
+              <p>Instructor: John Doe</p>
+            </div>
+
+            <div class="course-item">
+              <img src="5.jpg" alt="Course 2" />
+              <h3>Digital Marketing Masterclass</h3>
+              <p>
+                Discover the latest strategies and techniques for effective
+                digital marketing campaigns.
+              </p>
+              <p>Price: $149 | Duration: 6 weeks</p>
+              <p>Instructor: Jane Smith</p>
+            </div>
+            <div class="course-item">
+              <img src="2.jpg" alt="Course 3" />
+              <h3>Photography for Beginners</h3>
+              <p>
+                Learn the basics of photography, including composition,
+                lighting, and camera settings.
+              </p>
+              <p>Price: $79 | Duration: 4 weeks</p>
+              <p>Instructor: Michael Johnson</p>
+            </div>
+          </div>
+          <div class="course-list thelast"></div>
+        </div>
+      </a>
+    </main>
+
+    <footer>
+      <div class="social-container">
+        <a href="#" id="er" class="social fab fa-facebook-f">F</a>
+        <a href="#" id="er" class="social fab fa-google-plus-g">G+</a>
+        <a href="#" id="er" class="social fab fa-linked-in">In</a>
+      </div>
+      <div id="last">
+        <p>+251-91234-5678</p>
+        <p>saintmarry@gmail.com</p>
+        <p>Addis Ababa</p>
+        <p>2020</p>
+        <p>All rights reserved</p>
+      </div>
+    </footer>
+
+    <script>
+      const myA = JSON.parse(localStorage.getItem('myArray'));
+      let BoxHtml = '';
+      myA.forEach((element, index) => {
+        console.log(element.image);
+        BoxHtml =
+          BoxHtml +
+          `<div class="course-item">
+      <img src="${index}.jpg" alt="Course 2" />
+      <h3>${element.title}Digital Marketing Masterclass</h3>
+      <p>${element.disc}
+      </p>
+      <p>Price: $${element.money} | Duration: ${Math.floor(
+            ((index + 5) * 12) / 11
+          )} weeks</p>
+      <p>Instructor: ${element.inst}</p>
+    </div>
+      `;
+      });
+      document.querySelector('.thelast').innerHTML = BoxHtml;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+#forget {
+  color: rgba(72, 72, 74, 0.816);
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+#forget:hover {
+  color: rgb(111, 111, 231);
+}
+.do {
+  color: rgba(35, 10, 158, 0.71);
+  font-weight: 900;
+  font-size: 35px;
+}

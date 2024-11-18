@@ -1,0 +1,116 @@
+body::before {
+  content: '';
+  position: absolute;
+  height: 550px;
+  width: 400px;
+  left: 0;
+  background: rgb(157, 156, 156);
+  transform: translatey(25em);
+  border-top-right-radius: 100%;
+}
+body::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  transform: translatex(15em) scale(6) rotate(7deg);
+
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid grey;
+  top: 0;
+}
+
+.overlay::before,
+.backgrounddecore3,
+.backgrounddecore5 {
+  position: absolute;
+  content: '';
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: rotate(22deg) translateX(-5em);
+  top: 230px;
+  left: 0;
+}
+.backgrounddecore,
+.backgrounddecore6 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 50px;
+  right: 93px;
+  border-top-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+.backgrounddecore2 {
+  transform: scale(0.5);
+}
+.backgrounddecore3 {
+  transform: scale(2) rotate(60deg) translate(9em, -3em);
+}
+.overlay::after,
+.backgrounddecore4,
+.backgrounddecore7 {
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 60vh;
+  left: 370px;
+  border-radius: 50%;
+}
+.backgrounddecore4 {
+  top: 22px;
+  left: 33px;
+  transform: scale(0.3);
+}
+.backgrounddecore8 {
+  top: 22px;
+  left: 33px;
+}
+.backgrounddecore5 {
+  top: 44%;
+  left: 100%;
+  transform: scale(1.7) rotate(22deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backgrounddecore5 p {
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.284);
+}
+.backgrounddecore6 {
+  top: 8%;
+  left: 196%;
+  transform: scale(1.7) rotate(22deg);
+}
+.backgrounddecore7 {
+  top: 610px;
+  left: 210%;
+  transform: scale(1.7) rotate(22deg);
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  height: 550px;
+  width: 400px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.09);
+  transform: translate(-6.01em, 26em);
+  border-top-right-radius: 100%;
+  z-index: 1000;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  transform: translate(21.4em, -2.6em) scale(6) rotate(7deg);
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+}

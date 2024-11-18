@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f9f9f9;
+}
+
+.box {
+  width: 20em;
+  height: 22em;
+}
+.thumbnail {
+  height: 50%;
+  width: 100%;
+  background-color: yellow;
+}
+.content {
+  padding: 6px 0;
+  height: 12.5%;
+  width: 100%;
+}
+.author {
+  height: 12.5%;
+  width: 100%;
+}
+.rating {
+  position: relative;
+  top: -22px;
+  display: flex;
+  height: 12.5%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.dollar {
+  position: relative;
+  top: -22px;
+  height: 12.5%;
+  width: 100%;
+}
+.dollar p {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+
+p {
+  font-weight: 900;
+  font-size: large;
+  font-family: sans-serif;
+  line-height: 20px;
+}
+.auname,
+.count p {
+  font-weight: 500;
+  color: rgb(88, 87, 85);
+}
+.four {
+  width: 40px;
+  background-color: white;
+  text-align: end;
+}
+.four p {
+  font-size: 24px;
+}
+.count {
+  flex: 1;
+}
+.star {
+  flex: 2.5;
+}
+.star img {
+  transform: scale(0.5);
+  position: relative;
+  left: -47px;
+}
+hr {
+  margin: 33px;
+}
+
+footer {
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(40, 15, 98, 0.8);
+  background-image: url(w.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+}
+
+#ermiyas {
+  width: 100%;
+  font-size: xx-small;
+}
+
+.grid {
+  margin-top: 80px;
+}

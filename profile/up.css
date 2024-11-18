@@ -1,0 +1,90 @@
+.pthelast {
+  color: white;
+  position: absolute;
+  top: 10px;
+  padding-left: 22px;
+  font-weight: 900;
+  left: 0;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.insane {
+  position: relative;
+  height: 33px;
+  width: 333px;
+  margin-right: 22px;
+}
+.insane input {
+  position: absolute;
+  background: none;
+  left: -100%;
+  top: 8px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: rgb(241, 237, 237);
+}
+.fuck:hover {
+  border-bottom: 1px solid rgb(159, 159, 159);
+}
+#searchbutton:hover + input {
+  border-bottom: solid;
+  border-color: white;
+}
+#searchbutton {
+  margin-top: 4px;
+  fill: white;
+  margin-left: -13px;
+}
+.nope,
+.nope2 {
+  position: absolute;
+  display: inline;
+  top: 3px;
+  font-size: 22px;
+  left: 35px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.timage {
+  height: 32px;
+  width: 32px;
+  border: solid white;
+  left: 63%;
+  border-width: 2px;
+  position: absolute;
+}
+.yes {
+  color: #fff;
+  display: inline;
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  left: 75%;
+  white-space: nowrap;
+}
+#champ {
+  margin-left: 40px;
+}
+.nope2 {
+  left: 30%;
+}
+#none1 {
+  color: white;
+  position: relative;
+  left: -650px;
+  top: -2px;
+}
+#horse {
+  position: absolute;
+  color: white;
+  position: relative;
+  left: -550px;
+  top: -2px;
+}
+#horse:active {
+  transform: scale(1.1);
+}
+.up {
+  overflow: hidden;
+}
